@@ -1,0 +1,14 @@
+sala;id;nome;class
+F2-026;3;MAB-120;Turma
+
+class;id;nome;celular;email
+Aluno;17;Geraldo;21 78749387;eu@casa.com
+Aluno;12;Fulano;31 4553;
+Aluno;15;Sr. Beltrano;;ja@vai.com
+
+id;nome;class
+7;MAB-125;Turma
+
+class;id;nome;email;nascimento
+Aluno;8;Paulo;me@casa.com;1/1/2000
+Aluno;19;Silva;a@b.com;31/12/1999
