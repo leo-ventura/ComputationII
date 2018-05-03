@@ -132,8 +132,7 @@ public class RangeData implements Iterable<Data> {
     }
 
     public boolean ehMenor() {
-        if(dataGeral1.total() < dataGeral2.total()) return true;
-        return false;
+        return (dataGeral1.total() < dataGeral2.total());
     }
 
     @Override
@@ -142,10 +141,7 @@ public class RangeData implements Iterable<Data> {
 
             @Override
             public boolean hasNext() {
-                if(dataGeral1.getAno() == dataGeral2.getAno() && dataGeral1.getMes() == dataGeral2.getMes() && dataGeral1.getDia() == dataGeral2.getDia())
-                    return false;
-                else
-                    return true;
+                return !(dataGeral1.getAno() == dataGeral2.getAno() && dataGeral1.getMes() == dataGeral2.getMes() && dataGeral1.getDia() == dataGeral2.getDia())
             }
 
             @Override
